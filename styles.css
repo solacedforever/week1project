@@ -2,7 +2,10 @@ html {
   width:1000px;
   background-color:#F2F1E8;
 }
+#logo {
+  display:flex;
 
+}
 body {
   font-family: 'Roboto';
   width:1500px;
@@ -10,11 +13,12 @@ body {
   position:center;
 }
 #main_navigation {
+
   position:fixed;
   top:0px;
   text-align:center;
   background-color:white;
-  padding:-100px;
+  padding:5px;
   word-spacing:40px;
   color:black;
   text-decoration-color:none;
@@ -33,24 +37,38 @@ h1 {
   text-align:center;
   font-size:60px;
 }
-h3 {
-  margin-top:-30px;
+h2 {
+  margin-top:0px;
   text-align:center;
   font-size:30px;
+}
+h3 {
+  background:black;
+  color:white;
+  float:left;
+
+
 }
 img {
   display:flex;
   flex-wrap:wrap;
+  flex-shrink:30px;
   justify-content:space-around;
-  width:350px;
+  width:auto;
   height:350px;
 }
 #content {
   background-color:blue;
 }
+main {
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between;
+width:100%;
+}
 footer {
   background-color:black;
   color:white;
   padding:30px;
-
+  width:100%;
 }
