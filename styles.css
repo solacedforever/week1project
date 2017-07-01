@@ -1,28 +1,31 @@
 html {
-  width:1000px;
+  width:100%;
   background-color:#F2F1E8;
 }
 #logo {
   display:flex;
+  float;
+  z-index:100;
 
 }
 body {
   font-family: 'Roboto';
-  width:1500px;
+  width:100%;
   color:#131511;
   position:center;
 }
-#main_navigation {
 
+#main_navigation {
+  z-index:0;
+  margin:auto;
   position:fixed;
   top:0px;
   text-align:center;
   background-color:white;
   padding:5px;
+  padding-top:-10px;
   word-spacing:40px;
   color:black;
-  text-decoration-color:none;
-  text-decoration:none;
   width:100%;
   }
   a {
@@ -46,6 +49,10 @@ h3 {
   background:black;
   color:white;
   float:left;
+  z-index:100;
+  float;
+
+
 
 
 }
@@ -71,4 +78,46 @@ footer {
   color:white;
   padding:30px;
   width:100%;
+}
+table {
+  margin:auto;
+}
+table td {
+  border-color:black;
+  padding:22px;
+  border-style:solid;
+  }
+#tr2 {
+  background:#968772;
+}
+#about_image {
+  position:relative;
+  image-resolution:from-image;
+  height:400px;
+  width:1500px;
+}
+#room {
+  z-index:100;
+  float;
+  color:white;
+  position:absolute;
+  left : 0;
+  width:100%;
+  margin:150px;
+
+  padding:10px;
+}
+#form {
+  background:white;
+  margin:center;
+  text-align:center;
+  margin-top:20;
+  padding-top:50px;
+  z-index:100;
+  float;
+}
+#background1 {
+  width:80%;
+  height:auto;
+
 }

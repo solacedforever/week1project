@@ -8,6 +8,7 @@
   <title>Bent Creek Ceramics - About</title>
 
   <body>
+    <img id=background1 src=images/background-1.jpg>
 
     <div class="wrapper">
 
@@ -18,20 +19,29 @@
           <a href="about.html">ABOUT</a>
           <a href="newsletter.html#">NEWSLETTER</a>
         </nav>
-        <p>
+        <br>
+        <br>
           <br>
+          <form id=form>
 
-        Sign Up for Our Weekly Newsletter
+        <h2>Sign Up for Our Weekly Newsletter</h2>
 
-        Stay up to date with events, activities, news and specials.
-
+        <h2>Stay up to date with events, activities, news and specials.</h2>
+      </hr>
+        <form name="userForm">
+          <input type="text" id="userInput" name="userInput" placeholder="Name">
+          <input type="text" id="userInput" name="userInput" placeholder="E-mail">
+          <br>
+          <button type="submit" id="button">Submit</button>
+        </form>
+<!--
         <id=nameInput>Name
 
         <id=emailInput>Email
 
         <id=signupButton>Submit
 </P>
-<script type="text/javascript">
+
   var nameInput = document.getElementById('nameInput');
   var emailInput = document.getElementById('emailInput');
   var signupButton = document.getElementById('signupButton');
@@ -45,8 +55,8 @@
     } else {
       alert('We would love for you to sign up, please provide both your name and email address.');
     }
-  });
-</script>
+</script> !-->
+
         <footer>
           Copyright 2017, Bent Creek Ceramics
         </footer>
