@@ -10,7 +10,7 @@ html {
   position: relative;
   top: 10px;
 }
-
+}
 body {
   font-family: 'Roboto';
   width: 100%;
@@ -34,14 +34,19 @@ body {
 
 a {
   color: black;
-  text-decoration: none;
   text-align-last;
   top: -20px;
   position: relative;
 }
+a:link {
+  color:red;
+}
+a:above {
+  color:blue;
+}
 
 a:hover {
-  color: #CD5D67
+  color: #CD5D67;
 }
 
 
@@ -58,7 +63,7 @@ h2 {
 
 h3 {
   background: black;
-  color: white;
+  color:white;
   float: left;
   z-index: 100;
   float;
@@ -88,18 +93,19 @@ main {
 
 footer {
   background-color: black;
-  color: white;
+  color: #2b2F26;
   padding: 30px;
   width: 100%;
+  color:white;
 }
 
 table {
-  margin: auto;
+  margin: left;
 }
 
 table td {
   border-color: black;
-  padding: 22px;
+  padding: 33px;
   border-style: solid;
 }
 
@@ -128,14 +134,22 @@ table td {
   background: white;
   margin: center;
   text-align: center;
-  margin-top: 20;
-  padding-top: 50px;
-  z-index: 100;
+  margin-top: 10px;
+  padding-top: 20px;
   float;
   position:relative;
-  top:-500px;
+  top:-700px;
   border-style:hidden;
-  z-index:0;
+  border:5px solid white;
+  text-decoration:none;
+  width:40%;
+  height:90%;
+  position:relative;
+  margin:auto;
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 #background1 {
@@ -160,7 +174,12 @@ blockquote {
   image-resolution:250px 300px;
   display:flex;
   flex-shrink:5px;
-  word-wrap:width:100px;
-
+  word-wrap:100px;
+}
+#userinput {
+  border-bottom:solid brown 1px;
+  padding:3px 10px;
+}
+#aboutimage2 {
 
 }
