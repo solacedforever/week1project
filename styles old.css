@@ -53,22 +53,25 @@ a:hover {
 h1 {
   text-align: center;
   font-size: 60px;
+  font-family:'Merriweather';
 }
 
 h2 {
   margin-top: 0px;
   text-align: center;
   font-size: 30px;
+  font-family:'Merriweather';
 }
 
-h3 {
-  background: #2E3528;
-  color:#F2F1E8;
+.h3 {
+  background: black;
+  color:white;
   float: left;
   z-index: 100;
   float;
   position: relative;
   top: -55px;
+  font-family:'Merriweather';
 }
 
 img {
@@ -179,8 +182,8 @@ blockquote {
 #userinput {
   border-bottom:solid brown 1px;
   padding:3px 10px;
-  padding:3px 10px;
   margin-left:-400px;
+
 }
 #aboutimage2 {
 
@@ -198,4 +201,17 @@ blockquote {
 }
 #button:hover {
 color:#FFFFFF;
+}
+label {
+  margin-left:-50px;
+}
+.toprow {
+  display:block;
+  display:flex;
+  flex-direction:row;
+  height:360px;
+
+}
+#endlesspic {
+  
 }
