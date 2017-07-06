@@ -199,3 +199,24 @@ blockquote {
 #button:hover {
 color:#FFFFFF;
 }
+#product1 {
+
+}
+#aboutimage2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: -90px;
+  margin-right:300px;
+}
+#memaccess {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-right:258px;
+
+}
+#facilpar {
+  font-size:20px;
+  
+}
