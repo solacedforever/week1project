@@ -118,6 +118,7 @@ table td {
   image-resolution: from-image;
   height: 400px;
   width: 1500px;
+  object-fit:cover;
 }
 
 #room {
@@ -218,5 +219,5 @@ color:#FFFFFF;
 }
 #facilpar {
   font-size:20px;
-  
+
 }
