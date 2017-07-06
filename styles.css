@@ -101,12 +101,14 @@ footer {
 
 table {
   margin: left;
+  border-collapse:collapse;
 }
 
 table td {
   border-color: black;
   padding: 33px;
   border-style: solid;
+  border-collapse:collapse;
 }
 
 #tr2 {
