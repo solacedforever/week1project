@@ -16,6 +16,7 @@ body {
   width: 100%;
   color: #131511;
   position: center;
+
 }
 
 #main_navigation {
@@ -172,6 +173,7 @@ blockquote {
   margin-left: 50px;
   padding-left: 15px;
   border-left: 2px solid black;
+  font-style:italic;
 }
 #aboutwrap {
   image-resolution:250px 300px;
@@ -222,4 +224,7 @@ color:#FFFFFF;
 #facilpar {
   font-size:20px;
 
+}
+#body2 {
+  background-image:images/background-1.jpg;
 }
