@@ -16,9 +16,7 @@ body {
   width: 100%;
   color: #131511;
   position: center;
-
 }
-
 #main_navigation {
   z-index: 100;
   margin: auto;
@@ -32,7 +30,6 @@ body {
   color: black;
   width: 100%;
 }
-
 a {
   color: black;
   text-align-last;
@@ -40,38 +37,32 @@ a {
   position: relative;
 }
 a:link {
-  color:red;
+  color: red;
 }
 a:above {
-  color:blue;
+  color: blue;
 }
-
 a:hover {
   color: #CD5D67;
 }
-
-
 h1 {
   text-align: center;
   font-size: 60px;
 }
-
 h2 {
   margin-top: 0px;
   text-align: center;
   font-size: 30px;
 }
-
 h3 {
   background: #2E3528;
-  color:#F2F1E8;
+  color: #F2F1E8;
   float: left;
-  z-index: 100;
+  z-index: 90;
   float;
   position: relative;
   top: -55px;
 }
-
 img {
   display: flex;
   flex-wrap: wrap;
@@ -80,50 +71,42 @@ img {
   width: auto;
   height: 350px;
 }
-
 #content {
   background-color: blue;
 }
-
 main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
 }
-
 footer {
   background-color: black;
   color: #2b2F26;
   padding: 30px;
   width: 100%;
-  color:white;
+  color: white;
 }
-
 table {
   margin: left;
-  border-collapse:collapse;
+  border-collapse: collapse;
 }
-
 table td {
   border-color: black;
   padding: 33px;
   border-style: solid;
-  border-collapse:collapse;
+  border-collapse: collapse;
 }
-
 #tr2 {
   background: #968772;
 }
-
 #about_image {
   position: relative;
   image-resolution: from-image;
   height: 400px;
   width: 1500px;
-  object-fit:cover;
+  object-fit: cover;
 }
-
 #room {
   z-index: 90;
   float;
@@ -133,7 +116,6 @@ table td {
   text-align: center;
   padding-top: 112px;
 }
-
 #form {
   background: white;
   margin: center;
@@ -141,32 +123,31 @@ table td {
   margin-top: 10px;
   padding-top: 20px;
   float;
-  position:relative;
-  top:-700px;
-  border-style:hidden;
-  border:5px solid white;
-  text-decoration:none;
-  width:40%;
-  height:90%;
-  position:relative;
-  margin:auto;
-  padding-top:50px;
-  padding-bottom:50px;
-  padding-left:20px;
-  padding-right:20px;
+  position: relative;
+  top: -700px;
+  border-style: hidden;
+  border: 5px solid white;
+  text-decoration: none;
+  width: 40%;
+  height: 90%;
+  position: relative;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-
 #background1 {
   width: 100%;
   height: auto;
 }
 #stay {
-  font-size:20px;
+  font-size: 20px;
 }
 #abouttxt {
-  text-align:left;
+  text-align: left;
   position: relative;
-    left: 500px;
+  left: 500px;
 }
 blockquote {
   font: 14px/22px normal helvetica, sans-serif;
@@ -175,69 +156,58 @@ blockquote {
   margin-left: 50px;
   padding-left: 15px;
   border-left: 2px solid black;
-  font-style:italic;
+  font-style: italic;
   position: relative;
-left: 350px;
+  left: 350px;
 }
 #aboutwrap {
-  image-resolution:250px 300px;
-  display:flex;
-  flex-shrink:5px;
-  word-wrap:100px;
+  image-resolution: 250px 300px;
+  display: flex;
+  flex-shrink: 5px;
+  word-wrap: 100px;
   position: relative;
-  left:370px;
-  line-height:1.6;
+  left: 370px;
+  line-height: 1.6;
 }
 #userinput {
-  border-bottom:solid #968772 2px;
-  padding:3px 10px;
-  padding:3px 10px;
-  margin-left:-400px;
-  border-left:0px;
-  border-right:0px;
-  border-top:0px;
-  border-length:80px;
-  padding-right:300px;
-  margin-left:1px;
-}
-#aboutimage2 {
-
+  border-bottom: solid #968772 2px;
+  padding: 3px 10px;
+  padding: 3px 10px;
+  margin-left: -400px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-length: 80px;
+  padding-right: 300px;
+  margin-left: 1px;
 }
 #button {
-  border:none;
-  margin-left:-30px;
-  border:white;
-  background-color:#968772;
-  padding:20px;
-  text-decoration-color:white;
-  color:white;
-  padding-left:30px;
-  padding-right:30px;
+  border: none;
+  margin-left: -30px;
+  border: white;
+  background-color: #968772;
+  padding: 20px;
+  text-decoration-color: white;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 #button:hover {
-color:#FFFFFF;
-}
-#product1 {
-
+  color: #FFFFFF;
 }
 #aboutimage2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
   margin-top: -90px;
-  margin-right:300px;
+  margin-right: 300px;
 }
 #memaccess {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  margin-right:258px;
-
+  margin-right: 258px;
 }
 #facilpar {
-  font-size:20px;
-
-}
-#body2 {
-  background-image:images/background-1.jpg;
+  font-size: 20px;
 }
