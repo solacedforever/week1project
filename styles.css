@@ -189,10 +189,16 @@ left: 350px;
   line-height:1.6;
 }
 #userinput {
-  border-bottom:solid brown 1px;
+  border-bottom:solid #968772 2px;
   padding:3px 10px;
   padding:3px 10px;
   margin-left:-400px;
+  border-left:0px;
+  border-right:0px;
+  border-top:0px;
+  border-length:80px;
+  padding-right:300px;
+  margin-left:1px;
 }
 #aboutimage2 {
 
