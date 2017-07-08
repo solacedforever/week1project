@@ -20,7 +20,7 @@ body {
 }
 
 #main_navigation {
-  z-index: 0;
+  z-index: 100;
   margin: auto;
   position: fixed;
   top: 0px;
@@ -125,7 +125,7 @@ table td {
 }
 
 #room {
-  z-index: 100;
+  z-index: 90;
   float;
   color: white;
   position: absolute;
@@ -165,6 +165,8 @@ table td {
 }
 #abouttxt {
   text-align:left;
+  position: relative;
+    left: 500px;
 }
 blockquote {
   font: 14px/22px normal helvetica, sans-serif;
@@ -174,12 +176,17 @@ blockquote {
   padding-left: 15px;
   border-left: 2px solid black;
   font-style:italic;
+  position: relative;
+left: 350px;
 }
 #aboutwrap {
   image-resolution:250px 300px;
   display:flex;
   flex-shrink:5px;
   word-wrap:100px;
+  position: relative;
+  left:370px;
+  line-height:1.6;
 }
 #userinput {
   border-bottom:solid brown 1px;
