@@ -135,7 +135,7 @@ table td {
   padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top:100px;
+  margin-top:140px;
   margin-bottom:130px;
 }
 
@@ -247,4 +247,26 @@ aside.img {
   background-size:100%;
   margin:0;
   min-height:100vh;
+}
+#nameinput {
+  border-bottom: solid #968772 2px;
+  margin-left: -400px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-length: 80px;
+  padding-right: 300px;
+  margin-left: 1px;
+  width:30%;
+}
+#emailinput {
+  border-bottom: solid #968772 2px;
+  margin-left: -400px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-length: 80px;
+  padding-right: 300px;
+  margin-left: 1px;
+  width:30%;
 }
