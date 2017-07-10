@@ -88,7 +88,7 @@ footer {
   color: white;
 }
 table {
-  margin: left;
+  margin-left:214px;
   border-collapse: collapse;
 }
 table td {
@@ -124,7 +124,6 @@ table td {
   padding-top: 20px;
   float;
   position: relative;
-  top: -700px;
   border-style: hidden;
   border: 5px solid white;
   text-decoration: none;
@@ -137,27 +136,22 @@ table td {
   padding-left: 20px;
   padding-right: 20px;
 }
-#background1 {
-  width: 100%;
-  height: auto;
-}
+
 #stay {
   font-size: 20px;
 }
 #abouttxt {
-  text-align: left;
   position: relative;
-  left: 500px;
+  margin:auto;
+  width:70%;
+  text-align:left;
 }
 blockquote {
   font: 14px/22px normal helvetica, sans-serif;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  padding-left: 15px;
+  margin:auto;
   border-left: 2px solid black;
   font-style: italic;
-  position: relative;
+  width:70%;
   left: 350px;
 }
 #aboutwrap {
@@ -168,6 +162,7 @@ blockquote {
   position: relative;
   left: 370px;
   line-height: 1.6;
+
 }
 #userinput {
   border-bottom: solid #968772 2px;
@@ -195,12 +190,13 @@ blockquote {
 #button:hover {
   color: #FFFFFF;
 }
-#aboutimage2 {
+.aboutimage2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
   margin-top: -90px;
   margin-right: 300px;
+  width:10%;
 }
 #memaccess {
   display: flex;
@@ -208,6 +204,44 @@ blockquote {
   justify-content: flex-end;
   margin-right: 258px;
 }
-#facilpar {
-  font-size: 20px;
+#aboutparagraph{
+  font-size: 30px;
+  width:70%;
+  margin:auto;
+}
+.float_left {
+  float:left;
+}
+#community {
+  margin-top:80px;
+}
+#secondpar {
+  font-size:30px;
+  width:70%;
+  margin:auto;
+}
+.facilpar {
+  width:80%;
+  font-size:30px;
+
+}
+#aboutalign {
+width:70%;
+display:flex;
+margin:0px auto;
+}
+aside {
+  width:20%;
+  padding-left:15px;
+}
+aside.img {
+  width:100%;
+}
+#abouttxt5 {
+  width:50%;
+}
+#newbackground {
+  background-image:url("./images/background-2.jpg");
+  background-size:100%;
+  margin:0;
 }
