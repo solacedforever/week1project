@@ -1,6 +1,9 @@
-html {
+#html1 {
   width: 100%;
   background-color: #F2F1E8;
+}
+#html2 {
+  width:100%;
 }
 
 #logo {
@@ -90,6 +93,7 @@ footer {
 table {
   margin-left:214px;
   border-collapse: collapse;
+  margin-bottom:20px;
 }
 table td {
   border-color: black;
@@ -120,7 +124,6 @@ table td {
   background: white;
   margin: center;
   text-align: center;
-  margin-top: 10px;
   padding-top: 20px;
   float;
   position: relative;
@@ -132,10 +135,10 @@ table td {
   position: relative;
   margin: auto;
   padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top:140px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top:200px;
   margin-bottom:130px;
 }
 
@@ -147,6 +150,8 @@ table td {
   margin:auto;
   width:70%;
   text-align:left;
+  margin-bottom:20px;
+  margin-top:20px;
 }
 blockquote {
   font: 14px/22px normal helvetica, sans-serif;
@@ -155,6 +160,9 @@ blockquote {
   font-style: italic;
   width:70%;
   left: 350px;
+  margin-top:20px;
+  margin-bottom:20px;
+
 }
 #aboutwrap {
   image-resolution: 250px 300px;
@@ -188,6 +196,8 @@ blockquote {
   color: white;
   padding-left: 30px;
   padding-right: 30px;
+  margin:20px;
+
 }
 #button:hover {
   color: #FFFFFF;
@@ -246,7 +256,6 @@ aside.img {
   background-image:url("./images/background-2.jpg");
   background-size:100%;
   margin:0;
-  min-height:100vh;
 }
 #nameinput {
   border-bottom: solid #968772 2px;
@@ -269,4 +278,8 @@ aside.img {
   padding-right: 300px;
   margin-left: 1px;
   width:30%;
+  margin:20px;
+}
+#bentcreek {
+  margin:100px;
 }
