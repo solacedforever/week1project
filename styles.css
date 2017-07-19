@@ -5,7 +5,6 @@
 #html2 {
   width:100%;
 }
-
 #logo {
   display: flex;
   float;
@@ -141,7 +140,6 @@ table td {
   margin-top:200px;
   margin-bottom:130px;
 }
-
 #stay {
   font-size: 20px;
 }
@@ -162,7 +160,6 @@ blockquote {
   left: 350px;
   margin-top:20px;
   margin-bottom:20px;
-
 }
 #aboutwrap {
   image-resolution: 250px 300px;
@@ -172,10 +169,8 @@ blockquote {
   position: relative;
   left: 370px;
   line-height: 1.6;
-
 }
 #userinput {
-  border-bottom: solid #968772 2px;
   padding: 3px 10px;
   padding: 3px 10px;
   margin-left: -400px;
@@ -183,7 +178,6 @@ blockquote {
   border-right: 0px;
   border-top: 0px;
   border-length: 80px;
-  padding-right: 300px;
   margin-left: 1px;
 }
 #button {
@@ -197,7 +191,6 @@ blockquote {
   padding-left: 30px;
   padding-right: 30px;
   margin:20px;
-
 }
 #button:hover {
   color: #FFFFFF;
@@ -235,7 +228,6 @@ blockquote {
 .facilpar {
   width:80%;
   font-size:30px;
-
 }
 #aboutalign {
 width:70%;

@@ -1,12 +1,12 @@
   var nameInput = document.getElementById('nameinput');
   var emailInput = document.getElementById('emailinput');
   var signupButton = document.getElementById('button');
-  console.log(signupButton);
+    console.log(signupButton);
   signupButton.addEventListener('click', function(e) {
-    var nameVal = nameInput.value;
-    var emailVal = emailInput.value;
-    if (nameVal && emailVal) {
-      alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+      var nameVal = nameInput.value;
+      var emailVal = emailInput.value;
+      if (nameVal && emailVal) {
+        alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
       nameInput.value = "";
       emailInput.value = "";
     } else {
